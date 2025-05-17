@@ -1,0 +1,6 @@
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/CMakeFiles/Stm32Vscode2.dir
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/CMakeFiles/edit_cache.dir
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/CMakeFiles/rebuild_cache.dir
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/GitHub_Ws/Pursula/Stm32Vscode2/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
