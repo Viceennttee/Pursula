@@ -68,14 +68,13 @@ uint8_t I2C_Read(I2C_HandleTypeDef *i2cHandler,uint8_t deviceAddress, uint16_t m
 	if(is8Bit == 1) addressSize = I2C_MEMADD_SIZE_8BIT;
     readStatus = HAL_I2C_Mem_Read(
         i2cHandler,                    // Handler I2C
-        deviceAddress | 0x01,         // Dirección EEPROM + bit de lectura (0xA1)
+        deviceAddress,         // Dirección EEPROM + bit de lectura (0xA1)
         memAddr,                   // Dirección de memoria (2 bytes)
         addressSize,     // 8 bits para la dirección
         &data,                     // Buffer para almacenar el dato leído
         1,                         // Tamaño del dato (1 byte)
         HAL_MAX_DELAY              // Timeout
     );
-    HAL_Delay(1);
     if(readStatus != HAL_OK) return readStatus;
     return data;
 }

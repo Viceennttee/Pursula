@@ -25,8 +25,7 @@ set(MX_Application_Src
     ${CMAKE_SOURCE_DIR}/Core/Src/sysmem.c
     ${CMAKE_SOURCE_DIR}/Core/Src/syscalls.c
     ${CMAKE_SOURCE_DIR}/startup_stm32f407xx.s
-    ${CMAKE_SOURCE_DIR}/Core/Src/exti.c
-${CMAKE_SOURCE_DIR}/Core/Src/HC08.c
+    ${CMAKE_SOURCE_DIR}/Core/Src/HC08.c
 ${CMAKE_SOURCE_DIR}/Core/Src/I2C.c
 ${CMAKE_SOURCE_DIR}/Core/Src/imuData.c
 ${CMAKE_SOURCE_DIR}/Core/Src/initPeripheralsHal.c
@@ -35,7 +34,6 @@ ${CMAKE_SOURCE_DIR}/Core/Src/pulseData.c
 ${CMAKE_SOURCE_DIR}/Core/Src/pulseOximetry.c
 ${CMAKE_SOURCE_DIR}/Core/Src/timer.c
 ${CMAKE_SOURCE_DIR}/Core/Src/uart.c
-
 
 )
 

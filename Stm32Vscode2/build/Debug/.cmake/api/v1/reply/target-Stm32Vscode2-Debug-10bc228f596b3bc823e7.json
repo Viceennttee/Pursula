@@ -36,13 +36,13 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 95,
+				"line" : 94,
 				"parent" : 2
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 89,
+				"line" : 88,
 				"parent" : 2
 			}
 		]
@@ -118,8 +118,7 @@
 				11,
 				12,
 				13,
-				14,
-				15
+				14
 			]
 		},
 		{
@@ -223,8 +222,7 @@
 				11,
 				12,
 				13,
-				14,
-				15
+				14
 			]
 		},
 		{
@@ -238,6 +236,7 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
+				15,
 				16,
 				17,
 				18,
@@ -255,8 +254,7 @@
 				30,
 				31,
 				32,
-				33,
-				34
+				33
 			]
 		}
 	],
@@ -301,7 +299,7 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "Core/Src/exti.c",
+			"path" : "Core/Src/HC08.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -320,12 +318,6 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/initPeripheralsHal.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/max30102.c",
 			"sourceGroupIndex" : 0
 		},
 		{

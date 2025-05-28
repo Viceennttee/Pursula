@@ -28,7 +28,16 @@
 #define FIFO_RD_PTR         0x06
 #define FIFO_CONFIG 0x08
 
+//interrupts
+#define INT_STATUS1 0x00
+#define INT_STATUS2 0x01
+#define INT_ENABLE1 0x03
+#define INT_ENABLE2 0x04
+#define ALC_OVF_EN 1<<6
+
 
 
 void pulseOxInit();
+void pulseOxLowPower();
+void enableInt(uint8_t intFlag);
 #endif
